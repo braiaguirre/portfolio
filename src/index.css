@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide-file-input-text {
+    position: relative;
+    overflow: hidden;
+    width: 153px;
+}
