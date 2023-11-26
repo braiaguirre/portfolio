@@ -6,8 +6,14 @@ module.exports = {
       "./src/**/*.{js,jsx,ts,tsx}"
     ],
     theme: {
+      screens: {
+        sm: '480px',
+        md: '768px',
+        lg: '976px',
+        xl: '1440px',
+      },
       colors: {
-        background: '#100e0e',
+        background: '#020617',
         white: '#ffffff',
         gray: '#9A9BA2'
       },
