@@ -5,7 +5,7 @@ const Contact = () => {
     const handleLinkedin = () => window.open('linkedin.com/in/brian-aguirre-1947a3281/', '_blank')
     
     return (
-        <div className="flex flex-col mb-10">
+        <div className="flex flex-col">
             <h3 className="text-1xl font-bold mb-2 text-title">Say hello</h3>
 
             <div className="flex flex-row mb-10 space-x-24">

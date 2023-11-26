@@ -1,3 +1,4 @@
+
 import Project from './Project'
 
 const Projects = () => {
@@ -5,6 +6,11 @@ const Projects = () => {
     return (
         <div className="flex flex-col mb-24">
             <h3 className="text-1xl font-bold mb-2 text-title">Projects</h3>
+            <Project 
+                title="Portfolio" 
+                desc="Private repo, sorry." 
+                url="https://github.com/braiaguirre/"
+            />
             <Project 
                 title="Creva" 
                 desc="Private repo, sorry." 
