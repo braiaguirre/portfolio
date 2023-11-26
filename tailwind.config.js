@@ -14,6 +14,8 @@ module.exports = {
       },
       colors: {
         background: '#020617',
+        project: '#0F172A',
+        projectHover: '#151f38',
         white: '#ffffff',
         gray: '#9A9BA2'
       },
