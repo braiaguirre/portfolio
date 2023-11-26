@@ -13,11 +13,12 @@ module.exports = {
         xl: '1440px',
       },
       colors: {
-        background: '#020617',
-        project: '#0F172A',
-        projectHover: '#151f38',
-        white: '#ffffff',
-        gray: '#9A9BA2'
+        background: '#1b1c30',
+        project: '#2b2d47',
+        projectHover: '#343657',
+        title: '#f46c95',
+        subtitle: '#f5f4f5',
+        gray: '#e6e3e6'
       },
       extend: {
         fontFamily: {

@@ -4,7 +4,7 @@ const Projects = () => {
 
     return (
         <div className="flex flex-col mb-24">
-            <h3 className="text-1xl font-bold mb-2">Projects</h3>
+            <h3 className="text-1xl font-bold mb-2 text-title">Projects</h3>
             <Project 
                 title="Creva" 
                 desc="Private repo, sorry." 

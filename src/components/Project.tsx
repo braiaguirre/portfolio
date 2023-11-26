@@ -16,7 +16,7 @@ const Project = ({ title, desc, url }:ProjectType) => {
                 <img className="rounded-lg" src={ icon } />
             </div>
             <div className="flex flex-col w-100">
-                <h3 className="text-1xl font-bold">{ title }</h3>
+                <h3 className="text-1xl font-bold text-subtitle">{ title }</h3>
                 <p className="text-gray">{ desc }</p>
             </div>
         </div>

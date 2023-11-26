@@ -5,7 +5,7 @@ import Contact from '../components/Contact';
 
 const Home = () => {
     return (
-      <div className="flex flex-col text-white w-[550px]">
+      <div className="flex flex-col w-[550px]">
           <Navbar />
           <Bio />
           <Projects />
