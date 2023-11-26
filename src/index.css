@@ -4,5 +4,6 @@
 @tailwind utilities;
 
 p {
-    line-height: 26px;
+    line-height: 28px;
+    font-size: 14px;
 }
