@@ -18,7 +18,8 @@ module.exports = {
         projectHover: '#343657',
         title: '#f46c95',
         subtitle: '#f5f4f5',
-        gray: '#e6e3e6'
+        gray: '#e6e3e6',
+        white: '#ffffff'
       },
       extend: {
         fontFamily: {

@@ -15,9 +15,9 @@ const Contact = () => {
                     <p>GitHub</p>
                 </div>
                 <div className="flex flex-col space-y-1 text-gray [&>*]:cursor-pointer">
-                    <p onClick={ handleEmail }>aguirre.brianalexis94@gmail.com</p>
-                    <p onClick={ handleLinkedin }>/brian-aguirre-1947a3281</p>
-                    <p onClick={ handleGithub }>/braiaguirre</p>
+                    <p className="hover:text-white duration-200" onClick={ handleEmail }>aguirre.brianalexis94@gmail.com</p>
+                    <p className="hover:text-white duration-200" onClick={ handleLinkedin }>/brian-aguirre-1947a3281</p>
+                    <p className="hover:text-white duration-200" onClick={ handleGithub }>/braiaguirre</p>
                 </div>
             </div>
         </div>
