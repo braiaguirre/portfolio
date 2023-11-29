@@ -1,14 +1,10 @@
-import react from '../assets/react-icon.png'
-import tailwind from '../assets/tailwind.png'
-
-
-type ProjectType = {
+type RepoType = {
     title: string
     desc: string
     url: string
 }
 
-const Repo = ({ title, desc, url }:ProjectType) => {
+const Repo = ({ title, desc, url }:RepoType) => {
 
     const handleClick = () => window.open(url, '_blank')
 
