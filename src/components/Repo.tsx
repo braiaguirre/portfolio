@@ -8,7 +8,7 @@ type ProjectType = {
     url: string
 }
 
-const Project = ({ title, desc, url }:ProjectType) => {
+const Repo = ({ title, desc, url }:ProjectType) => {
 
     const handleClick = () => window.open(url, '_blank')
 
@@ -22,11 +22,9 @@ const Project = ({ title, desc, url }:ProjectType) => {
                 </div>
             </div>
             <div className="flex flex-row items-center [&>img]:h-4 space-x-2">
-                <img src={ react } />
-                <img src={ tailwind } />
             </div>
         </div>
     )
 }
   
-export default Project
+export default Repo
