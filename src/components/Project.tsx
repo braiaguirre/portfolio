@@ -18,7 +18,7 @@ const Project = ({ title, desc, url }:ProjectType) => {
                 <span className="material-symbols-outlined text-title text-3xl font-bold">arrow_forward</span>
                 <div>
                     <h3 className="text-1xl font-bold text-subtitle">{ title }</h3>
-                    <p className="text-gray">{ desc }</p>
+                    <p className="text-lightgray">{ desc }</p>
                 </div>
             </div>
             <div className="flex flex-row items-center [&>img]:h-4 space-x-2">
