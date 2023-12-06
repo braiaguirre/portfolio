@@ -5,7 +5,7 @@ const Repos = () => {
 
     return (
         <div className="flex flex-col mb-24">
-            <h3 className="text-1xl font-bold mb-2 text-title">Other</h3>
+            <h3 className="text-1xl font-bold mb-2 text-title">For fun</h3>
             <Repo 
                 title="Exercism / Javascript" 
                 desc="Open repository." 

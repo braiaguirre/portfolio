@@ -19,7 +19,7 @@ module.exports = {
         title: '#f46c95',
         subtitle: '#f5f4f5',
         gray: '#e6e3e6',
-        lightgray: '#808e8f',
+        lightgray: '#c4c4c4',
         white: '#ffffff'
       },
       extend: {
