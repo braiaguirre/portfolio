@@ -6,7 +6,7 @@ import Repos from '../components/Repos';
 
 const Home = () => {
     return (
-      <div className="flex flex-col w-[400px] md:w-[550px]">
+      <div className="flex flex-col w-[400px] md:w-[550px] lg:w-[650px]">
           <Navbar />
           <Bio />
           <Projects />

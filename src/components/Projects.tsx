@@ -7,29 +7,34 @@ const Projects = () => {
         <div className="flex flex-col mb-24">
             <h3 className="text-1xl font-bold mb-2 text-title">Projects</h3>
             <Project 
-                title="Delivery Hero Catalog Update" 
-                desc="Working on..." 
+                title="Delivery Hero Integration" 
+                desc="Catalog update through API. Working on this." 
                 url="https://github.com/braiaguirre/"
+                stack={['JAVASCRIPT', 'REACT', 'TAILWIND', 'NODE']}
             />
             <Project 
                 title="Portfolio" 
-                desc="Open repository." 
+                desc="This simple portfolio you are looking at." 
                 url="https://github.com/braiaguirre/"
+                stack={['TYPESCRIPT', 'REACT', 'TAILWIND']}
             />
             <Project 
                 title="Creva" 
-                desc="Private repository." 
-                url="https://github.com/braiaguirre/" 
+                desc="Back-end work for Creva's personalized app." 
+                url="https://creva.vercel.app/" 
+                stack={['JAVASCRIPT', 'NODE', 'FIREBASE', 'POSTGRESQL']}
             />
             <Project 
-                title="Pokéapi" 
-                desc="Open repository." 
+                title="Henry final project" 
+                desc="Interactive app connected to a Pokémon's API." 
                 url="https://github.com/braiaguirre/pi-pokemon" 
+                stack={['JAVASCRIPT', 'REACT', 'NODE', 'POSTGRESQL']}
             />
             <Project 
-                title="Rick and Morty" 
-                desc="Open repository." 
+                title="Henry integrative project " 
+                desc="Interactive app connected to a Rick and Morty's API." 
                 url="https://github.com/braiaguirre/rick-and-morty" 
+                stack={['JAVASCRIPT', 'REACT', 'NODE', 'POSTGRESQL']}
             />
         </div>
     )
