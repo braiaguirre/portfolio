@@ -9,7 +9,11 @@ import node from '../assets/node-icon.png'
 import firebase from '../assets/firebase-icon.png'
 import postgresql from '../assets/postgresql-icon.png'
 
-const STACK_MAP = {
+type StackMap = {
+    [key: string]: string
+}
+
+const STACK_MAP: StackMap = {
     'JAVASCRIPT': javascript,
     'TYPESCRIPT': typescript,
     'CSHARP': csharp,
@@ -22,4 +26,4 @@ const STACK_MAP = {
     'POSTGRESQL': postgresql,
 }
 
-export default (tech :string) => STACK_MAP[tech]
+export default (tech :string): string => STACK_MAP[tech]
