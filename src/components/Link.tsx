@@ -1,13 +1,13 @@
 import iconSelector from '../utils/iconSelector'
 
-type ProjectType = {
+type Link = {
     title: string
     desc: string
     url: string
     stack: string[]
 }
 
-const Link = ({ title, desc, url, stack }:ProjectType) => {
+const Link = ({ title, desc, url, stack }:Link) => {
 
     const handleClick = () => window.open(url, '_blank')
 

@@ -1,7 +1,7 @@
 
 import Link from './Link'
 
-type ProjectsType = {
+type Links = {
     title: string
     links: {
         title: string;
@@ -11,7 +11,7 @@ type ProjectsType = {
     } []
 }
 
-const Links = ({ title, links }: ProjectsType ) => {
+const Links = ({ title, links }: Links ) => {
 
     return (
         <div className="flex flex-col mb-24">
