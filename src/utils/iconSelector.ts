@@ -6,6 +6,7 @@ import processing from '../assets/processing-icon.png'
 import react from '../assets/react-icon.png'
 import tailwind from '../assets/tailwind-icon.png'
 import node from '../assets/node-icon.png'
+import express from '../assets/express-icon.png'
 import firebase from '../assets/firebase-icon.png'
 import postgresql from '../assets/postgresql-icon.png'
 
@@ -22,6 +23,7 @@ const STACK_MAP: StackMap = {
     'REACT': react,
     'TAILWIND': tailwind,
     'NODE': node,
+    'EXPRESS': express,
     'FIREBASE': firebase,
     'POSTGRESQL': postgresql,
 }
