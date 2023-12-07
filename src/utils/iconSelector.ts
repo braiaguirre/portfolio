@@ -9,6 +9,9 @@ import node from '../assets/node-icon.png'
 import express from '../assets/express-icon.png'
 import firebase from '../assets/firebase-icon.png'
 import postgresql from '../assets/postgresql-icon.png'
+import mysql from '../assets/mysql-icon.png'
+import elementor from '../assets/elementor-icon.png'
+import wordpress from '../assets/wordpress-icon.png'
 
 type StackMap = {
     [key: string]: string
@@ -26,6 +29,9 @@ const STACK_MAP: StackMap = {
     'EXPRESS': express,
     'FIREBASE': firebase,
     'POSTGRESQL': postgresql,
+    'WORDPRESS': wordpress,
+    'MYSQL': mysql,
+    'ELEMENTOR': elementor
 }
 
 export default (tech :string): string => STACK_MAP[tech]

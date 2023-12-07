@@ -34,10 +34,10 @@
         ],
     "kiwee": [
         {
-            "title":"Freelance work / Kiwee Studio",
-            "desc":"lalallalalalalala",
+            "title":"Freelance work as Kiwee Studio",
+            "desc":"Personalized apps and websites according to the client's specifications.",
             "url":"https://kiwee.digital",
-            "stack":["JAVASCRIPT", "REACT", "NODE", "EXPRESS", "POSTGRESQL"]
+            "stack":["JAVASCRIPT", "WORDPRESS", "ELEMENTOR", "MYSQL"]
         }
     ],
     "others": [

@@ -10,7 +10,7 @@ const Home = () => {
           <Navbar />
           <Bio />
           <Links title="Projects" links={ db.projects } />
-          <Links title="Kiwee" links={ db.kiwee } />
+          <Links title="Kiwee Studio" links={ db.kiwee } />
           <Links title="Others" links={ db.others } />
           <Contact />
       </div>
