@@ -1,3 +1,5 @@
+import { LANGUAGES } from "../constants"
+
 const Navbar = () => {
     
     const handleClick = () => window.location.reload();
@@ -9,6 +11,13 @@ const Navbar = () => {
                 <li>Writing</li>
                 <li>Contact</li>
             </ul> */}
+            <select defaultValue={"es"}>
+                {LANGUAGES.map(({ code, label }) => (
+                <option key={code} value={code}>
+                    {label}
+                </option>
+                ))}
+            </select>
         </div>
     )
 }
