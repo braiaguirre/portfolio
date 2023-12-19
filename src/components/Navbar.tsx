@@ -15,7 +15,8 @@ const Navbar = () => {
                 <li>Writing</li>
                 <li>Contact</li>
             </ul> */}
-            <select defaultValue={ i18n.language } onChange={ handleLangChange }>
+
+            <select defaultValue={ i18n.language } onChange={ handleLangChange } className="bg-background text-white text-[13px] outline-none border-none text-1xl cursor-pointer [&>*]:outline-none [&>*]:border-none" >
                 {LANGUAGES.map(({ code, label }) => (
                     <option key={code} value={code}>
                         {label}
