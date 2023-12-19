@@ -4,10 +4,13 @@ import Link from './Link'
 type Links = {
     title: string
     links: {
-        title: string;
-        desc: string;
-        url: string;
-        stack: string[];
+        title: string
+        desc: {
+            en: string
+            es: string
+        }
+        url: string
+        stack: string[]
     } []
 }
 
