@@ -24,7 +24,7 @@ i18n.use(initReactI18next).init({
             hello: 'Hola.',
             bioTitle: 'Soy Brian,',
             bioSubtitle: 'desarrollador full stack viviendo en Bariloche, Argentina.',
-            bioDesc: 'Desarrollador con ganas de crear aplicaciones innovadoras. Me gusta trabajar en ambientes ágiles y colaborar con otras personas para darle vida a ideas que aporten valor a nuestro mundo. Cuando no estoy codeando me pueden encontrar haciendo trekking en la Patagonia.',
+            bioDesc: 'Desarrollador con ganas de crear aplicaciones innovadoras. Me siento cómodo trabajando en ambientes ágiles y colaborar con otras personas para darle vida a ideas que aporten valor a nuestro mundo. Cuando no estoy codeando me pueden encontrar haciendo trekking en la Patagonia.',
             projects: 'Proyectos',
             others: 'Otros',
             contact: 'Di hola',
