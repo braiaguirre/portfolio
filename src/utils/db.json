@@ -3,31 +3,46 @@
         [
             {
                 "title":"Delivery Hero Integration",
-                "desc":"Catalog update through API connection. Working on this right now.",
+                "desc": {
+                    "en": "Catalog update through API connection. Working on this right now.",
+                    "es": "Integración a través de API para actualizar catálogos en las aplicaciones de Delivery Hero (Pedidos Ya en LATAM). Trabajando en esto."
+                },
                 "url":"https://github.com/braiaguirre/",
                 "stack":["JAVASCRIPT", "REACT", "TAILWIND", "NODE", "EXPRESS"]
             },
             {
                 "title":"Portfolio",
-                "desc":"This simple looking portfolio in front of you.",
-                "url":"https://github.com/braiaguirre/",
+                "desc": {
+                    "en": "This simple looking portfolio in front of you.",
+                    "es": "Este simple portfolio en frente tuyo."
+                },
+                "url":"https://github.com/braiaguirre/portfolio",
                 "stack":["TYPESCRIPT", "REACT", "TAILWIND"]
             },
             {
                 "title":"Creva",
-                "desc":"Back-end work for Creva's personalized app. Integrations: Firebase, Nodemailer, Stripe, Mercado Pago.",
+                "desc": {
+                    "en": "Back-end work for Creva's personalized app. Integrations: Firebase, Nodemailer, Stripe, Mercado Pago.",
+                    "es": "Trabajo de beck-end para la aplicación personalizada de Creva. Integraciones con Firebase, Nodemailer, Stripe, Mercado Pago."
+                },
                 "url":"https://creva.vercel.app/",
                 "stack":["JAVASCRIPT", "NODE", "EXPRESS", "FIREBASE", "POSTGRESQL"]
             },
             {
                 "title":"Pokémon App",
-                "desc":"Interactive app connected to a Pokémon's API for Henry's final project. Includes full login system.",
+                "desc": {
+                    "en": "Interactive app connected to a Pokémon's API for Henry's final project. Includes full login system.",
+                    "es": "Aplicación interactiva conectada a una API de Pokémon con sistema de login y registro completo. Desarrollada para el proyecto final de Henry."
+                },
                 "url":"https://github.com/braiaguirre/pi-pokemon",
                 "stack":["JAVASCRIPT", "REACT", "NODE", "EXPRESS", "POSTGRESQL"]
             },
             {
                 "title":"Rick and Morty App",
-                "desc":"Interactive app connected to a Rick and Morty's API for Henry's integrative project.",
+                "desc": {
+                    "en": "Interactive app connected to a Rick and Morty's API for Henry's integrative project.",
+                    "es": "Aplicación interactiva conectada a una API de Rick and Morty. Desarrollada para el proyecto integrador de Henry."
+                },
                 "url":"https://github.com/braiaguirre/rick-and-morty",
                 "stack":["JAVASCRIPT", "REACT", "NODE", "EXPRESS", "POSTGRESQL"]
             }
@@ -35,7 +50,10 @@
     "kiwee": [
         {
             "title":"Freelance work as Kiwee Studio",
-            "desc":"Personalized apps and websites according to the client's specifications.",
+            "desc": {
+                "en": "Personalized apps and websites according to the client's specifications.",
+                "es": "Aplicaciones y sitios web personalizados de acuerdo a las especificaciones del cliente."
+            },
             "url":"https://kiwee.digital",
             "stack":["JAVASCRIPT", "WORDPRESS", "ELEMENTOR", "MYSQL"]
         }
@@ -43,31 +61,46 @@
     "others": [
         {
             "title":"Exercism / Javascript",
-            "desc":"Exercism's Javascript puzzles. 41% completed",
+            "desc": {
+                "en": "Exercism's Javascript puzzles. 41% completed",
+                "es": "Ejercicios de Exercism en Javascript. 41% completado."
+            },
             "url":"https://github.com/braiaguirre/exercism-javascript",
             "stack":["JAVASCRIPT"]
         },
         {
             "title":"Exercism / Typescript",
-            "desc":"Exercism's Typescript puzzles. 11% completed",
+            "desc": {
+                "en": "Exercism's Typescript puzzles. 11% completed",
+                "es": "Ejercicios de Exercism en Typescript. 11% completado."
+            },
             "url":"https://github.com/braiaguirre/exercism-typescript",
             "stack":["TYPESCRIPT"]
         },
         {
             "title":"Exercism / C#",
-            "desc":"Exercism's C# puzzles. 1% completed",
+            "desc": {
+                "en": "Exercism's C# puzzles. 1% completed",
+                "es": "Ejercicios de Exercism en C#. 1% completado."
+            },
             "url":"https://github.com/braiaguirre/exercism-csharp",
             "stack":["CSHARP"]
         },
         {
             "title":"Exercism / Python",
-            "desc":"Exercism's Python puzzles. 1% completed",
+            "desc": {
+                "en": "Exercism's Python puzzles. 1% completed",
+                "es": "Ejercicios de Exercism en Python. 1% completado."
+            },
             "url":"https://github.com/braiaguirre/exercism-python",
             "stack":["PYTHON"]
         },
         {
             "title":"Processing",
-            "desc":"Some Processing creations." ,
+            "desc": {
+                "en": "Some Processing creations.",
+                "es": "Algunas creaciones en Processing."
+            },
             "url":"https://github.com/braiaguirre/processing",
             "stack":["PROCESSING"]
         }

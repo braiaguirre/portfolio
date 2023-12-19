@@ -3,7 +3,7 @@
 module.exports = {
     content: [
       "./index.html",
-      "./src/**/*.{js,jsx,ts,tsx}"
+      "./src/**/*.{js,jsx,ts,tsx}",
     ],
     theme: {
       screens: {
@@ -19,6 +19,7 @@ module.exports = {
         title: '#f46c95',
         subtitle: '#f5f4f5',
         gray: '#e6e3e6',
+        black: '#000000',
         lightgray: '#c4c4c4',
         white: '#ffffff'
       },
