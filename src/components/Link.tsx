@@ -13,7 +13,7 @@ type Link = {
 
 const Link = ({ title, desc, url, stack }:Link) => {
 
-    const { i18n, t } = useTranslation();
+    const { i18n } = useTranslation();
     const handleClick = () => window.open(url, '_blank')
 
     return (
