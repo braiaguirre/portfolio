@@ -16,7 +16,7 @@ i18n.use(initReactI18next).init({
             bioDesc: 'Developer with a knack for creating innovative applications. I thrive in fast-paced environments and enjoy collaborating to bring ideas to life. When not coding, I may be found trekking around Patagonia.',
             projects: 'Projects',
             others: 'Others',
-            contact: 'Di hola',
+            contact: 'Say hello',
         }
     },
     es: {
