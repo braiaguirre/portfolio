@@ -11,6 +11,15 @@
                 "stack":["JAVASCRIPT", "REACT", "TAILWIND", "NODE", "EXPRESS"]
             },
             {
+                "title":"Notepad (Technical Interview Assessment)",
+                "desc": {
+                    "en": "Simple note-taking application with filters, categories and archive. Developed as part of a technical test assessment.",
+                    "es": "Aplicación para tomar notas con filtros, categorías y archivo. Desarrollada para una prueba técnica."
+                },
+                "url":"https://brianaguirre-notepad.vercel.app/",
+                "stack":["JAVASCRIPT", "REACT", "NODE", "EXPRESS", "POSTGRESQL"]
+            },
+            {
                 "title":"Portfolio",
                 "desc": {
                     "en": "This simple looking portfolio in front of you.",
