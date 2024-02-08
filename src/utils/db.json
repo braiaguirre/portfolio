@@ -9,6 +9,15 @@
                 },
                 "url":"https://github.com/braiaguirre/",
                 "stack":["SOLIDITY"]
+            },
+            {
+                "title":"Testing",
+                "desc": {
+                    "en": "Google's new testing course. Using Vitest.",
+                    "es": "Nuevo curso de testing de Google. Utilizando Vitest."
+                },
+                "url":"https://web.dev/learn/testing",
+                "stack":["TESTING"]
             }
         ],
     "projects": 
