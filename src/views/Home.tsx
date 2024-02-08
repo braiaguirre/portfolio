@@ -4,7 +4,6 @@ import Bio from '../components/Bio'
 import Links from '../components/Links'
 import Contact from '../components/Contact'
 import db from '../utils/db.json'
-import Learning from "../components/Learning"
 
 const Home = () => {
     const { t } = useTranslation();
