@@ -17,6 +17,7 @@ i18n.use(initReactI18next).init({
             projects: 'Projects',
             others: 'Others',
             contact: 'Say hello',
+            learning: 'Currently learning'
         }
     },
     es: {
@@ -28,6 +29,7 @@ i18n.use(initReactI18next).init({
             projects: 'Proyectos',
             others: 'Otros',
             contact: 'Di hola',
+            learning: 'Aprendiendo ahora'
         }
     }
   },

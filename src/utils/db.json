@@ -1,4 +1,16 @@
 {
+    "learning": 
+        [
+            {
+                "title":"Solidity",
+                "desc": {
+                    "en": "Smart contracts development with Solidity.",
+                    "es": "Desarrollo de contratos inteligentes con Solidity."
+                },
+                "url":"https://github.com/braiaguirre/",
+                "stack":["SOLIDITY"]
+            }
+        ],
     "projects": 
         [
             {
