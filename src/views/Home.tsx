@@ -13,7 +13,7 @@ const Home = () => {
       <div className="flex flex-col w-[400px] md:w-[550px] lg:w-[650px]">
           <Navbar />
           <Bio />
-          <Learning />
+          <Links title={t('learning')} links={ db.learning } />
           <Links title={t('projects')} links={ db.projects } />
           <Links title="Kiwee Studio" links={ db.kiwee } />
           <Links title={t('others')} links={ db.others } />
