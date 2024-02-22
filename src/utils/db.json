@@ -23,10 +23,19 @@
     "projects": 
         [
             {
+                "title":"Custom Quick Ecommerce Store",
+                "desc": {
+                    "en": "Custom ecommerce store with a fluid order system for small to medium stores. Working on this right now.",
+                    "es": "Tienda online personalizada con un sistema de pedidos fluido para tiendas pequeñas y medianas. Trabajando en esto."
+                },
+                "url":"https://github.com/braiaguirre/",
+                "stack":["TYPESCRIPT", "REACT", "NODE", "EXPRESS", "POSTGRESQL"]
+            },
+            {
                 "title":"Delivery Hero Integration",
                 "desc": {
-                    "en": "Catalog update through API connection. Working on this right now.",
-                    "es": "Integración a través de API para actualizar catálogos en las aplicaciones de Delivery Hero (Pedidos Ya en LATAM). Trabajando en esto."
+                    "en": "Catalog update through API connection. Private repo.",
+                    "es": "Integración a través de API para actualizar catálogos en las aplicaciones de Delivery Hero (Pedidos Ya en LATAM). Repositorio privado."
                 },
                 "url":"https://github.com/braiaguirre/",
                 "stack":["JAVASCRIPT", "REACT", "TAILWIND", "NODE", "EXPRESS"]
